@@ -1,0 +1,27 @@
+# Environments
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+backend/.env
+
+# Runtime data (keep folders via .gitkeep, ignore generated content)
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+chroma_db/*
+!chroma_db/.gitkeep
+database/*
+!database/.gitkeep
+*.db
+*.sqlite3
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
